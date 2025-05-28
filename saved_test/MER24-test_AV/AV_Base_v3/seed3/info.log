@@ -1,0 +1,23 @@
+INFO: ====== load info and config =======
+INFO: Input feature: clip-vit-large-patch14-UTT ===> dim is (1, 768)
+INFO: Input feature: chinese-hubert-large-UTT ===> dim is (1, 1024)
+INFO: ====== load dataset =======
+INFO: n_valid:1169
+INFO: ====== build model =======
+INFO: load model: AV_Base_v3 
+
+INFO: load model weight: /mnt/public/gxj_2/EmoNet_2B/saved/seed3_MER24_AV/AV_Base_v3/test/best.pth 
+
+INFO: ====== Evaluation =======
+INFO: emotions: ['neutral', 'angry', 'happy', 'sad', 'worried', 'surprise']
+INFO: Confusion Matrix:
+INFO: [[116  30  21  12  18   4]
+ [  5 149   0   5   2   2]
+ [  2   3 237   1   1   2]
+ [  2   4   3 305   2   1]
+ [ 25  14   1  24  92   3]
+ [  2   7   1   2   9  62]]
+INFO: Accuracy: 0.8221
+INFO: Precision: 0.8186
+INFO: Recall: 0.8221
+INFO: F1 Score: 0.8142

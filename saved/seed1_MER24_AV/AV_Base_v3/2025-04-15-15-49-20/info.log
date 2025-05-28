@@ -1,0 +1,216 @@
+INFO: ====== load info and config =======
+INFO: Input feature: clip-vit-large-patch14-UTT ===> dim is (1, 768)
+INFO: Input feature: chinese-hubert-large-UTT ===> dim is (1, 1024)
+INFO: save config: ./saved/seed1_MER24_AV/AV_Base_v3/2025-04-15-15-49-20/args.yaml 
+
+INFO: ====== load dataset =======
+INFO: n_train:4024
+INFO: n_valid:1006
+INFO: ====== build model =======
+INFO: load model: AV_Base_v3 
+
+INFO: ====== Training and Evaluation =======
+INFO: epoch: 1, lr:0.00010000
+INFO: 	TRAIN: loss:1.7245
+INFO: 	VALID: loss:1.6463, acc:0.3082, f-score:0.2171
+INFO: 	*** Update best info ! ***
+INFO: epoch: 2, lr:0.00009994
+INFO: 	TRAIN: loss:1.5249
+INFO: 	VALID: loss:1.3535, acc:0.5219, f-score:0.4702
+INFO: 	*** Update best info ! ***
+INFO: epoch: 3, lr:0.00009975
+INFO: 	TRAIN: loss:1.2442
+INFO: 	VALID: loss:1.1193, acc:0.5944, f-score:0.5754
+INFO: 	*** Update best info ! ***
+INFO: epoch: 4, lr:0.00009945
+INFO: 	TRAIN: loss:1.0706
+INFO: 	VALID: loss:1.0119, acc:0.6332, f-score:0.6074
+INFO: 	*** Update best info ! ***
+INFO: epoch: 5, lr:0.00009902
+INFO: 	TRAIN: loss:0.9544
+INFO: 	VALID: loss:0.9069, acc:0.6750, f-score:0.6543
+INFO: 	*** Update best info ! ***
+INFO: epoch: 6, lr:0.00009847
+INFO: 	TRAIN: loss:0.9074
+INFO: 	VALID: loss:0.9039, acc:0.6750, f-score:0.6626
+INFO: 	*** Update best info ! ***
+INFO: epoch: 7, lr:0.00009780
+INFO: 	TRAIN: loss:0.8463
+INFO: 	VALID: loss:0.8584, acc:0.6978, f-score:0.6779
+INFO: 	*** Update best info ! ***
+INFO: epoch: 8, lr:0.00009701
+INFO: 	TRAIN: loss:0.8154
+INFO: 	VALID: loss:0.8571, acc:0.6869, f-score:0.6786
+INFO: 	*** Update best info ! ***
+INFO: epoch: 9, lr:0.00009611
+INFO: 	TRAIN: loss:0.7639
+INFO: 	VALID: loss:0.7724, acc:0.7167, f-score:0.7089
+INFO: 	*** Update best info ! ***
+INFO: epoch: 10, lr:0.00009510
+INFO: 	TRAIN: loss:0.7173
+INFO: 	VALID: loss:0.7535, acc:0.7237, f-score:0.7176
+INFO: 	*** Update best info ! ***
+INFO: epoch: 11, lr:0.00009397
+INFO: 	TRAIN: loss:0.6759
+INFO: 	VALID: loss:0.7209, acc:0.7406, f-score:0.7247
+INFO: 	*** Update best info ! ***
+INFO: epoch: 12, lr:0.00009274
+INFO: 	TRAIN: loss:0.6387
+INFO: 	VALID: loss:0.6850, acc:0.7584, f-score:0.7517
+INFO: 	*** Update best info ! ***
+INFO: epoch: 13, lr:0.00009141
+INFO: 	TRAIN: loss:0.6005
+INFO: 	VALID: loss:0.6669, acc:0.7475, f-score:0.7378
+INFO: 	*** Update best info ! ***
+INFO: epoch: 14, lr:0.00008997
+INFO: 	TRAIN: loss:0.5966
+INFO: 	VALID: loss:0.6640, acc:0.7515, f-score:0.7471
+INFO: 	*** Update best info ! ***
+INFO: epoch: 15, lr:0.00008844
+INFO: 	TRAIN: loss:0.5740
+INFO: 	VALID: loss:0.6815, acc:0.7505, f-score:0.7545
+INFO: epoch: 16, lr:0.00008682
+INFO: 	TRAIN: loss:0.5663
+INFO: 	VALID: loss:0.6635, acc:0.7734, f-score:0.7742
+INFO: 	*** Update best info ! ***
+INFO: epoch: 17, lr:0.00008511
+INFO: 	TRAIN: loss:0.5430
+INFO: 	VALID: loss:0.6979, acc:0.7396, f-score:0.7383
+INFO: epoch: 18, lr:0.00008332
+INFO: 	TRAIN: loss:0.5327
+INFO: 	VALID: loss:0.6582, acc:0.7684, f-score:0.7638
+INFO: 	*** Update best info ! ***
+INFO: epoch: 19, lr:0.00008145
+INFO: 	TRAIN: loss:0.5173
+INFO: 	VALID: loss:0.6559, acc:0.7684, f-score:0.7683
+INFO: 	*** Update best info ! ***
+INFO: epoch: 20, lr:0.00007951
+INFO: 	TRAIN: loss:0.5192
+INFO: 	VALID: loss:0.6732, acc:0.7694, f-score:0.7659
+INFO: epoch: 21, lr:0.00007750
+INFO: 	TRAIN: loss:0.5067
+INFO: 	VALID: loss:0.6770, acc:0.7594, f-score:0.7585
+INFO: epoch: 22, lr:0.00007543
+INFO: 	TRAIN: loss:0.4906
+INFO: 	VALID: loss:0.6569, acc:0.7624, f-score:0.7635
+INFO: epoch: 23, lr:0.00007330
+INFO: 	TRAIN: loss:0.4816
+INFO: 	VALID: loss:0.6399, acc:0.7773, f-score:0.7762
+INFO: 	*** Update best info ! ***
+INFO: epoch: 24, lr:0.00007113
+INFO: 	TRAIN: loss:0.4794
+INFO: 	VALID: loss:0.6351, acc:0.7773, f-score:0.7789
+INFO: 	*** Update best info ! ***
+INFO: epoch: 25, lr:0.00006891
+INFO: 	TRAIN: loss:0.4666
+INFO: 	VALID: loss:0.6650, acc:0.7555, f-score:0.7543
+INFO: epoch: 26, lr:0.00006665
+INFO: 	TRAIN: loss:0.4562
+INFO: 	VALID: loss:0.6523, acc:0.7614, f-score:0.7624
+INFO: epoch: 27, lr:0.00006436
+INFO: 	TRAIN: loss:0.4600
+INFO: 	VALID: loss:0.6314, acc:0.7664, f-score:0.7690
+INFO: 	*** Update best info ! ***
+INFO: epoch: 28, lr:0.00006204
+INFO: 	TRAIN: loss:0.4428
+INFO: 	VALID: loss:0.6578, acc:0.7694, f-score:0.7683
+INFO: epoch: 29, lr:0.00005970
+INFO: 	TRAIN: loss:0.4467
+INFO: 	VALID: loss:0.6551, acc:0.7783, f-score:0.7778
+INFO: epoch: 30, lr:0.00005736
+INFO: 	TRAIN: loss:0.4092
+INFO: 	VALID: loss:0.6491, acc:0.7803, f-score:0.7783
+INFO: epoch: 31, lr:0.00005500
+INFO: 	TRAIN: loss:0.4213
+INFO: 	VALID: loss:0.6447, acc:0.7783, f-score:0.7776
+INFO: epoch: 32, lr:0.00005264
+INFO: 	TRAIN: loss:0.4180
+INFO: 	VALID: loss:0.6418, acc:0.7594, f-score:0.7597
+INFO: epoch: 33, lr:0.00005030
+INFO: 	TRAIN: loss:0.4074
+INFO: 	VALID: loss:0.6450, acc:0.7584, f-score:0.7594
+INFO: epoch: 34, lr:0.00004796
+INFO: 	TRAIN: loss:0.4014
+INFO: 	VALID: loss:0.6489, acc:0.7684, f-score:0.7685
+INFO: epoch: 35, lr:0.00004564
+INFO: 	TRAIN: loss:0.3886
+INFO: 	VALID: loss:0.6606, acc:0.7644, f-score:0.7663
+INFO: epoch: 36, lr:0.00004335
+INFO: 	TRAIN: loss:0.3815
+INFO: 	VALID: loss:0.6489, acc:0.7694, f-score:0.7699
+INFO: epoch: 37, lr:0.00004109
+INFO: 	TRAIN: loss:0.3798
+INFO: 	VALID: loss:0.6512, acc:0.7734, f-score:0.7723
+INFO: epoch: 38, lr:0.00003887
+INFO: 	TRAIN: loss:0.3807
+INFO: 	VALID: loss:0.6544, acc:0.7654, f-score:0.7664
+INFO: epoch: 39, lr:0.00003670
+INFO: 	TRAIN: loss:0.3610
+INFO: 	VALID: loss:0.6593, acc:0.7684, f-score:0.7688
+INFO: epoch: 40, lr:0.00003457
+INFO: 	TRAIN: loss:0.3693
+INFO: 	VALID: loss:0.6601, acc:0.7654, f-score:0.7659
+INFO: epoch: 41, lr:0.00003250
+INFO: 	TRAIN: loss:0.3558
+INFO: 	VALID: loss:0.6665, acc:0.7594, f-score:0.7610
+INFO: epoch: 42, lr:0.00003049
+INFO: 	TRAIN: loss:0.3570
+INFO: 	VALID: loss:0.6661, acc:0.7614, f-score:0.7633
+INFO: epoch: 43, lr:0.00002855
+INFO: 	TRAIN: loss:0.3475
+INFO: 	VALID: loss:0.6634, acc:0.7614, f-score:0.7618
+INFO: epoch: 44, lr:0.00002668
+INFO: 	TRAIN: loss:0.3384
+INFO: 	VALID: loss:0.6712, acc:0.7704, f-score:0.7705
+INFO: epoch: 45, lr:0.00002489
+INFO: 	TRAIN: loss:0.3307
+INFO: 	VALID: loss:0.6819, acc:0.7594, f-score:0.7619
+INFO: epoch: 46, lr:0.00002318
+INFO: 	TRAIN: loss:0.3436
+INFO: 	VALID: loss:0.6811, acc:0.7654, f-score:0.7661
+INFO: epoch: 47, lr:0.00002156
+INFO: 	TRAIN: loss:0.3295
+INFO: 	VALID: loss:0.6861, acc:0.7664, f-score:0.7662
+INFO: epoch: 48, lr:0.00002003
+INFO: 	TRAIN: loss:0.3462
+INFO: 	VALID: loss:0.6720, acc:0.7704, f-score:0.7697
+INFO: epoch: 49, lr:0.00001859
+INFO: 	TRAIN: loss:0.3240
+INFO: 	VALID: loss:0.6782, acc:0.7604, f-score:0.7623
+INFO: epoch: 50, lr:0.00001726
+INFO: 	TRAIN: loss:0.3257
+INFO: 	VALID: loss:0.6740, acc:0.7614, f-score:0.7622
+INFO: epoch: 51, lr:0.00001603
+INFO: 	TRAIN: loss:0.3268
+INFO: 	VALID: loss:0.6821, acc:0.7694, f-score:0.7701
+INFO: epoch: 52, lr:0.00001490
+INFO: 	TRAIN: loss:0.3289
+INFO: 	VALID: loss:0.6832, acc:0.7614, f-score:0.7631
+INFO: epoch: 53, lr:0.00001389
+INFO: 	TRAIN: loss:0.3277
+INFO: 	VALID: loss:0.6799, acc:0.7684, f-score:0.7683
+INFO: epoch: 54, lr:0.00001299
+INFO: 	TRAIN: loss:0.3141
+INFO: 	VALID: loss:0.6855, acc:0.7624, f-score:0.7645
+INFO: epoch: 55, lr:0.00001220
+INFO: 	TRAIN: loss:0.3198
+INFO: 	VALID: loss:0.6818, acc:0.7684, f-score:0.7681
+INFO: epoch: 56, lr:0.00001153
+INFO: 	TRAIN: loss:0.3268
+INFO: 	VALID: loss:0.6851, acc:0.7614, f-score:0.7630
+INFO: epoch: 57, lr:0.00001098
+INFO: 	TRAIN: loss:0.3203
+INFO: 	VALID: loss:0.6862, acc:0.7664, f-score:0.7670
+INFO: epoch: 58, lr:0.00001055
+INFO: 	TRAIN: loss:0.3227
+INFO: 	VALID: loss:0.6773, acc:0.7674, f-score:0.7679
+INFO: epoch: 59, lr:0.00001025
+INFO: 	TRAIN: loss:0.3105
+INFO: 	VALID: loss:0.6829, acc:0.7614, f-score:0.7624
+INFO: epoch: 60, lr:0.00001006
+INFO: 	TRAIN: loss:0.3054
+INFO: 	VALID: loss:0.6876, acc:0.7604, f-score:0.7615
+INFO: End Training ! 
+
+
+INFO: BEST: epoch:27, loss:0.6314, acc:0.7664, f-score:0.7690

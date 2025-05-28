@@ -1,0 +1,6 @@
+uni_settings:
+  train_input_mode: input
+  feat_type: utt
+  hidden_dim: 512
+  dropout: 0.3
+  grad_clip: -1.0
